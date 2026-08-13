@@ -25,7 +25,7 @@ def format_message(username, message):
 def get_machine_status(machine_name):
     """Return a dummy machine status."""
     machines = {
-        "Machine-01": "RUNNING",
+        "Machine-01": "RUNNINrewgG",
         "Machine-02": "STOPPED",
         "Machine-03": "FAULT"
     }
