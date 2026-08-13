@@ -1,0 +1,14 @@
+{
+  "pages": {
+    "/": {
+      "title": "",
+      "viewPath": ""
+    },
+    "/table": {
+      "viewPath": "Templates/Utils/Table"
+    }
+  },
+  "sharedDocks": {
+    "cornerPriority": "top-bottom"
+  }
+}
