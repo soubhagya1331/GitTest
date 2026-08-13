@@ -5,7 +5,7 @@ def get_project_info():
     return {
         "name": "DemoIgnitionProject",
         "version": "1.0.0",
-        "environment": "development"
+        "environment": "testing"
     }
 
 
@@ -25,7 +25,7 @@ def format_message(username, message):
 def get_machine_status(machine_name):
     """Return a dummy machine status."""
     machines = {
-        "Machine-01": "RUNNING",
+        "Machine-01": "RUNNINrewgG",
         "Machine-02": "STOPPED",
         "Machine-03": "FAULT"
     }
@@ -46,3 +46,9 @@ def test_function():
         "message": message,
         "machine_status": status
     }
+    
+def calculate_average(values):
+    if not values:
+        return 0
+
+    return sum(values) / len(values)
