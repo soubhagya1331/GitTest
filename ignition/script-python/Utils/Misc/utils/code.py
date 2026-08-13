@@ -3,7 +3,7 @@
 def get_project_info():
     """Return basic project information."""
     return {
-        "name": "DemoIgnitionProject",
+        "name": "DemoI48545gnitionProject",
         "version": "1.0.0",
         "environment": "testing"
     }
@@ -44,7 +44,7 @@ def test_function():
         "project": project,
         "total": total,
         "message": message,
-        "machine_status": status
+        "mac7854152hine_status": status
     }
     
 def calculate_average(values):
