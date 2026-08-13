@@ -3,6 +3,20 @@
   "params": {},
   "props": {},
   "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "SimpleGauge"
+        },
+        "position": {
+          "height": 175,
+          "width": 300,
+          "x": 226,
+          "y": 610
+        },
+        "type": "ia.chart.simple-gauge"
+      }
+    ],
     "meta": {
       "name": "root"
     },
